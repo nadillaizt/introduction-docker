@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  introduction-docker-app:
+    build: .
+    container_name: introduction-docker-container
+    restart: unless-stopped
